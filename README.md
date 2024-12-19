@@ -16,18 +16,18 @@ That's all! You don't need Node.js or npm installed locally since we're using co
 git clone <repository-url>
 cd <project-name>
 ```
-
+---
+### Before you continue, do this:
+> This is not compulsory and will not affect your development, but if you want some personalization, read through.
+- change the package name on `package.json` and `package-lock.json` (always do an highlight(Ctr Shift L) to see places the original name was used)
+- change the image and container name on Makefile (always do an highlight(Ctr Shift L) to see places the original name was used)
+---
 2. Build the development Docker image
 ```bash
 make dev-build
 ```
 
-3. Install dependencies
-```bash
-make install
-```
-
-4. Start the development server
+3. Start the development server
 ```bash
 make dev
 ```
